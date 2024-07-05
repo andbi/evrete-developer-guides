@@ -13,10 +13,10 @@ public abstract class AbstractBenchmarkRunner {
     protected static void runTest(Class<?> benchmark, Mode mode) {
         try {
             TimeValue duration = TimeValue.milliseconds(1000L);
-            int iterations = 16;
+            int iterations = 10;
             Options opt = new OptionsBuilder()
                     .include(benchmark.getSimpleName())
-                    .warmupIterations(iterations)
+                    .warmupIterations(iterations / 2)
                     .warmupTime(duration)
                     .measurementIterations(iterations)
                     .measurementTime(duration)
