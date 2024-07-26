@@ -8,7 +8,7 @@ import org.openjdk.jmh.annotations.*;
 
 import java.io.IOException;
 
-public class AnnotatedVsCoreBuildTime {
+public class AnnotatedVsCorePerformance {
 
     @Benchmark
     public void core(BenchmarkData state) {

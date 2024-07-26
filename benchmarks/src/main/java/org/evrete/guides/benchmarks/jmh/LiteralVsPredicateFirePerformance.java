@@ -85,7 +85,6 @@ public class LiteralVsPredicateFirePerformance {
         public void tearDown() {
             service.shutdown();
         }
-
     }
 
 
