@@ -15,7 +15,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jmh.version>1.37</jmh.version>
-        <evrete.version>4.0.0</evrete.version>
+        <evrete.version>4.0.3</evrete.version>
     </properties>
 
     <build>
@@ -51,6 +51,7 @@
     <modules>
         <module>benchmarks</module>
         <module>common</module>
+        <module>examples</module>
     </modules>
 
 </project>
