@@ -1,4 +1,4 @@
-package org.evrete.guides.examples;
+package org.evrete.guides.examples.environment;
 
 import org.evrete.KnowledgeService;
 import org.evrete.api.Knowledge;

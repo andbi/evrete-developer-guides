@@ -1,8 +1,7 @@
-package org.evrete.guides.examples;
+package org.evrete.guides.examples.environment;
 
 import org.evrete.KnowledgeService;
 import org.evrete.api.Knowledge;
-import org.evrete.api.StatelessSession;
 import org.evrete.api.events.EnvironmentChangeEvent;
 import org.evrete.dsl.Constants;
 import org.evrete.dsl.annotation.EventSubscription;
