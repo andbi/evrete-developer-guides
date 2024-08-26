@@ -17,7 +17,7 @@ public class EnvironmentAnnotatedKnowledge {
         Knowledge knowledge = service.newKnowledge()
                 .importRules(Constants.PROVIDER_JAVA_CLASS, ExampleRuleset.class);
 
-        // Overriding the value for a particular session
+        // Setting the value for the knowledge (and its sessions)
         knowledge.set("ENV_KEY", 1234);
 
         // This will print 'Env property value: 1234'

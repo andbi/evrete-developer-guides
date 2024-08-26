@@ -12,11 +12,11 @@ public class EnvironmentCore {
         Knowledge knowledge = service.newKnowledge()
                 .builder()
                 .newRule()
-                .forEach("$c", String.class)
+                .forEach("$s", String.class)
                 .execute(context -> {
-                    // Reading the value from the runtime context
-                    int keyValue = context.getRuntime().get("ENV_KEY");
-                    System.out.println("Env property value: " + keyValue);
+                    // Reading the environment var from the runtime context
+                    int envValue = context.getRuntime().get("ENV_KEY");
+                    System.out.println("Env property value: " + envValue);
                 }).build();
 
         // Setting the environment value for Knowledge

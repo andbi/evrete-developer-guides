@@ -18,7 +18,7 @@ public class EnvironmentAnnotatedSession {
         Knowledge knowledge = service.newKnowledge()
                 .importRules(Constants.PROVIDER_JAVA_CLASS, ExampleRuleset.class);
 
-        // Overriding the value for a particular session
+        // Setting the value for a particular session
         StatelessSession session = knowledge.newStatelessSession();
         session.set("ENV_KEY", 1234);
 
@@ -41,8 +41,5 @@ public class EnvironmentAnnotatedSession {
             System.out.println("Env property value: " + envValue);
         }
     }
+
 }
-
-
-
-
