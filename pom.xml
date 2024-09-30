@@ -16,6 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jmh.version>1.37</jmh.version>
         <evrete.version>4.0.3</evrete.version>
+        <junit.version>5.9.2</junit.version>
     </properties>
 
     <build>
